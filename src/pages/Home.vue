@@ -69,8 +69,6 @@
   }
 
   button {
-    margin-top: 5rem;
-    margin-left: 0rem;
     color: var(--primary-text-color);
     font-size: 4rem;
     animation-name: fade-left-5;
@@ -81,11 +79,25 @@
     border-bottom: 2px solid var(--primary-text-color);
   }
 
+  /* button {
+    background: none;
+    font-size: 4rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    transition: 0.5s;
+    color: var(--primary-text-color);
+    border: 2px solid var(--primary-text-color);
+    animation-name: fade-left-5;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  } */
+
   button:hover {
     cursor: pointer;
   }
 
-  @keyframes fade-left-1 {
+  /* @keyframes fade-left-1 {
     0% {
       transform: translate(-100px, -20px);
       opacity: 0;
@@ -174,7 +186,7 @@
       transform: translate(0px, 0px);
       opacity: 1;
     }
-  }
+  } */
   @media (max-width: 800px) {
     p {
       font-size: 12vw;

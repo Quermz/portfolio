@@ -25,7 +25,8 @@
     --secondary-highlight-color: #e9a8a2;
   }
   html {
-    scroll-behavior: smooth;
+    overflow-y: scroll;
+
     background: var(--main-bg-color);
     color: var(--primary-text-color);
     overflow-x: hidden;

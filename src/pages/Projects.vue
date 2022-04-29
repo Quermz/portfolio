@@ -1,13 +1,22 @@
 <template>
   <div class="projectOuterContainer" id="projects">
+    <div class="disclaimerContainer">
+      <h3>Please note!</h3>
+      <p class="">
+        I'm using free Heroku hosting for my projects back end services. These
+        servers go to sleep after 1 hour of inactivity. As a result the first
+        request usually has a slower response time of around 10 seconds.
+      </p>
+    </div>
     <div class="projectContainer">
       <div class="textContainer">
         <h2>co Notes</h2>
         <p>Built Using: Vue, Vuex, Node, Express, MongoDB</p>
         <p>
           A notes application that allows users to create accounts and store
-          notes. Private API routes secured using JWT authentication.
+          notes. API routes secured using JWT authentication.
         </p>
+        <p>Account details: Username: test, Password: test.</p>
 
         <div class="linksContainer">
           <a href="https://conotes.netlify.app/#/">
@@ -34,18 +43,26 @@
         <h2>Webstore</h2>
         <p>Built Using: Vue, Vuex, Node, Express, MongoDB</p>
         <p>
-          A custom built webstore that allows users to create accounts and
-          persist their basket between visits.
+          A custom built webstore that allows customers to create accounts and
+          persist their basket between visits. Maintains a complete and detailed
+          order history accessible to the customer.
         </p>
+        <p>Account details: Email: test, Username: test, Password: test.</p>
         <div class="linksContainer">
-          <button>Visit Here</button>
+          <a href="https://cowebstore.netlify.app/#/">
+            <button>Visit Here</button>
+          </a>
           <div class="gitHubLink">
             <div>Front End</div>
-            <a href=""><i class="fab fa-github"></i></a>
+            <a href="https://github.com/Quermz/cowebstore-front"
+              ><i class="fab fa-github"></i
+            ></a>
           </div>
           <div class="gitHubLink">
             <div>Back End</div>
-            <a href=""><i class="fab fa-github"></i></a>
+            <a href="https://github.com/Quermz/webstore-server"
+              ><i class="fab fa-github"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -64,9 +81,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
   }
+
+  .disclaimerContainer {
+    padding: 1rem;
+    width: 1200px;
+    max-width: 100%;
+  }
+
+  .disclaimerContainer > h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
   .projectContainer {
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -79,7 +109,7 @@
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+
     gap: 2rem;
   }
 
@@ -123,12 +153,16 @@
     border: 3px solid black;
     border-radius: 20px;
     width: 600px;
-    max-width: 90%;
+    max-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
   @media (max-width: 1200px) {
     .projectOuterContainer {
+      gap: 1rem;
+    }
+    .disclaimerContainer {
+      width: 600px;
     }
     .projectContainer {
       flex-direction: column;

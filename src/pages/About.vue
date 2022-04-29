@@ -72,7 +72,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;
 
-    align-items: center;
+    justify-items: center;
   }
 
   .fa-brands {
