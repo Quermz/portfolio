@@ -19,18 +19,18 @@
         <p>Account details: Username: test, Password: test.</p>
 
         <div class="linksContainer">
-          <a href="https://conotes.netlify.app/#/">
+          <a href="https://conotes.netlify.app/#/" target="_blank">
             <button>Visit Here</button>
           </a>
           <div class="gitHubLink">
             <div>Front End</div>
-            <a href="https://github.com/Quermz/notes_frontend"
+            <a href="https://github.com/Quermz/notes_frontend" target="_blank"
               ><i class="fab fa-github"></i
             ></a>
           </div>
           <div class="gitHubLink">
             <div>Back End</div>
-            <a href="https://github.com/Quermz/notes_backend"
+            <a href="https://github.com/Quermz/notes_backend" target="_blank"
               ><i class="fab fa-github"></i
             ></a>
           </div>
@@ -49,18 +49,18 @@
         </p>
         <p>Account details: Email: test, Username: test, Password: test.</p>
         <div class="linksContainer">
-          <a href="https://cowebstore.netlify.app/#/">
+          <a href="https://cowebstore.netlify.app/#/" target="_blank">
             <button>Visit Here</button>
           </a>
           <div class="gitHubLink">
             <div>Front End</div>
-            <a href="https://github.com/Quermz/cowebstore-front"
+            <a href="https://github.com/Quermz/cowebstore-front" target="_blank"
               ><i class="fab fa-github"></i
             ></a>
           </div>
           <div class="gitHubLink">
             <div>Back End</div>
-            <a href="https://github.com/Quermz/webstore-server"
+            <a href="https://github.com/Quermz/webstore-server" target="_blank"
               ><i class="fab fa-github"></i
             ></a>
           </div>
