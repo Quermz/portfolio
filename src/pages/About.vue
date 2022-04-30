@@ -26,7 +26,7 @@
       </div>
       <div class="cvContainer">
         <h4>If you'd like to download a copy of my CV</h4>
-        <a href=""><button>Download</button></a>
+        <a href="src/assets/CV.pdf" download><button>Download</button></a>
       </div>
     </div>
   </div>
