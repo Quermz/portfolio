@@ -8,7 +8,7 @@
           developer. My interest in web development started back in 2019 while
           studying at Universtity, when I helped set up an online store for a
           friends small business. The business didn't stick but my interest in
-          development was piqued. Since then I've had the oppurtunity to work
+          development was piqued. Since then I've had the opportunity to work
           full time at a small tech company, pick up freelance work and pursue
           passion projects.
         </p>
@@ -20,13 +20,13 @@
           <i class="fa-brands fa-vuejs"></i>
           <i class="fa-brands fa-react"></i>
           <i class="fa-brands fa-js"></i>
-          <i class="fa-brands fa-wordpress"></i>
           <i class="fa-brands fa-git-alt"></i>
+          <i class="fa-brands fa-css3-alt"></i>
         </div>
       </div>
       <div class="cvContainer">
         <h4>If you'd like to download a copy of my CV</h4>
-        <a href="src/assets/CV.pdf" download><button>Download</button></a>
+        <a href="CV.pdf" download><button>Download</button></a>
       </div>
     </div>
   </div>

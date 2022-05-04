@@ -15,6 +15,9 @@
 <script setup></script>
 
 <style scoped>
+  * {
+    white-space: nowrap;
+  }
   .homeContainer {
     /* height: 70vh; */
     display: flex;
@@ -26,7 +29,7 @@
   .innerHomeContainer {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 3rem;
     align-items: center;
   }
 

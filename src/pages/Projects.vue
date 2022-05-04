@@ -8,36 +8,7 @@
         request usually has a slower response time of around 10 seconds.
       </p>
     </div>
-    <div class="projectContainer">
-      <div class="textContainer">
-        <h2>co Notes</h2>
-        <p>Built Using: Vue, Vuex, Node, Express, MongoDB</p>
-        <p>
-          A notes application that allows users to create accounts and store
-          notes. API routes secured using JWT authentication.
-        </p>
-        <p>Account details: Username: test, Password: test.</p>
 
-        <div class="linksContainer">
-          <a href="https://conotes.netlify.app/#/" target="_blank">
-            <button>Visit Here</button>
-          </a>
-          <div class="gitHubLink">
-            <div>Front End</div>
-            <a href="https://github.com/Quermz/notes_frontend" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </div>
-          <div class="gitHubLink">
-            <div>Back End</div>
-            <a href="https://github.com/Quermz/notes_backend" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-      <img alt="coNotes" src="../assets/coNotes.png" />
-    </div>
     <div class="projectContainer">
       <div class="textContainer">
         <h2>Webstore</h2>
@@ -67,6 +38,36 @@
         </div>
       </div>
       <img alt="webstore" src="../assets/webstore.png" />
+    </div>
+    <div class="projectContainer">
+      <div class="textContainer">
+        <h2>co Notes</h2>
+        <p>Built Using: Vue, Vuex, Node, Express, MongoDB</p>
+        <p>
+          A notes application that allows users to create accounts and store
+          notes. API routes secured using JWT authentication.
+        </p>
+        <p>Account details: Username: test, Password: test.</p>
+
+        <div class="linksContainer">
+          <a href="https://conotes.netlify.app/#/" target="_blank">
+            <button>Visit Here</button>
+          </a>
+          <div class="gitHubLink">
+            <div>Front End</div>
+            <a href="https://github.com/Quermz/notes_frontend" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+          <div class="gitHubLink">
+            <div>Back End</div>
+            <a href="https://github.com/Quermz/notes_backend" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <img alt="coNotes" src="../assets/coNotes.png" />
     </div>
   </div>
 </template>
@@ -153,7 +154,7 @@
     border: 3px solid black;
     border-radius: 20px;
     width: 600px;
-    max-width: 100%;
+    /* max-width: 100%; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 

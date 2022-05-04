@@ -25,12 +25,11 @@
     --secondary-highlight-color: #e9a8a2;
   }
   html {
-    overflow-y: scroll;
-
     background: var(--main-bg-color);
     color: var(--primary-text-color);
     overflow-x: hidden;
   }
+
   *,
   *::before,
   *::after {
