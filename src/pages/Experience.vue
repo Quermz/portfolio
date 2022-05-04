@@ -4,15 +4,17 @@
     <h2>References available upon request!</h2>
     <div class="experienceInnerContainer">
       <div class="employmentSubContainer">
-        <h3>Technical Support Analyst at The Hub</h3>
+        <h3>Technical Analyst at The Hub</h3>
         <h4>April 2021 - April 2022</h4>
         <p>
-          I began working at The Hub as Technical Support Analyst part time
-          while in my final year at university. My primary role was supporting
-          our lead developer by producing functional requirements on behalf of
-          clients, testing new software, and documenting existing code.
-          Additionally, I was responsible for updating The Hubs website using
-          WordPress.
+          I began working part time at The Hub as Technical Analyst while in my
+          final year of university. I've had commercial experience working with
+          multiple front end Javascript frameworks including React and Vue. At
+          my previous role I designed and built landing screens and login pages,
+          as well as gaining experience doing data validation and interacting
+          with backend APIs. I've built a number of APIs using NodeJS, including
+          an automated email client that allowed potential customers to request
+          demonstrations of our companies software.
         </p>
       </div>
       <div class="employmentSubContainer">
@@ -20,8 +22,8 @@
         <h4>September 2018 - June 2021</h4>
         <p>
           I graduated from The University of Nottingham in 2021 with a degree in
-          Inudstrial Economics. Somewhere along the way I found out I enjoyed
-          writing code!
+          Inudstrial Economics. Somewhere along the way I found a passion for
+          web development!
         </p>
       </div>
       <div class="employmentSubContainer">
@@ -31,8 +33,8 @@
           Before attending university, I spent a year working as a Junior
           Analyst at Eproductive. While employed I had a varied set of
           responsibilities including answering technical support calls, writings
-          queries in SQL on behalf of clients as well as helping maintain the
-          companies’ databases.
+          queries in SQL on behalf of clients as well attending sales meetings
+          and conferences.
         </p>
       </div>
     </div>
