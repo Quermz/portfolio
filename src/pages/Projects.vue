@@ -3,9 +3,8 @@
     <div class="disclaimerContainer">
       <h3>Please note!</h3>
       <p class="">
-        I'm using free Heroku hosting for my projects back end services. These
-        servers go to sleep after 1 hour of inactivity. As a result the first
-        request usually has a slower response time of around 10 seconds.
+        Servers go to sleep after 1 hour of inactivity, so the first request may
+        have a slower response time!
       </p>
     </div>
 
@@ -89,6 +88,7 @@
     padding: 1rem;
     width: 1200px;
     max-width: 100%;
+    text-align: center;
   }
 
   .disclaimerContainer > h3 {
@@ -154,7 +154,7 @@
     border: 3px solid black;
     border-radius: 20px;
     width: 600px;
-    /* max-width: 100%; */
+    max-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
@@ -164,10 +164,12 @@
     }
     .disclaimerContainer {
       width: 600px;
+      max-width: 100%;
     }
     .projectContainer {
       flex-direction: column;
       width: 600px;
+      max-width: 100%;
       align-items: center;
       justify-content: center;
       gap: 1rem;
@@ -175,6 +177,9 @@
     .textContainer {
       gap: 1rem;
       align-items: center;
+      border: 2px solid var(--primary-text-color);
+      border-radius: 1rem;
+      padding: 1rem;
     }
   }
 </style>

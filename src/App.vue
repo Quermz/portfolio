@@ -28,6 +28,7 @@
     background: var(--main-bg-color);
     color: var(--primary-text-color);
     overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   *,

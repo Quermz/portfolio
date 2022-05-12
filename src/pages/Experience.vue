@@ -4,17 +4,17 @@
     <h2>References available upon request!</h2>
     <div class="experienceInnerContainer">
       <div class="employmentSubContainer">
-        <h3>Technical Analyst at The Hub</h3>
+        <h3>Technical Support Analyst at The Hub</h3>
         <h4>April 2021 - April 2022</h4>
         <p>
           I began working part time at The Hub as Technical Analyst while in my
-          final year of university. I've had commercial experience working with
-          multiple front end Javascript frameworks including React and Vue. At
-          my previous role I designed and built landing screens and login pages,
-          as well as gaining experience doing data validation and interacting
-          with backend APIs. I've built a number of APIs using NodeJS, including
-          an automated email client that allowed potential customers to request
-          demonstrations of our companies software.
+          final year of University. Here I gained commercial experience working
+          with multiple front end Javascript frameworks including React and Vue.
+          While employed at The Hub I designed and built landing screens, login
+          pages, as well as performing data validation and interacting with back
+          end APIs. I've also built a number of APIs and back end services using
+          NodeJS, including an automated email client that allowed potential
+          customers to request demonstrations of our companies software.
         </p>
       </div>
       <div class="employmentSubContainer">
@@ -67,7 +67,7 @@
     flex-direction: column;
     gap: 0.5rem;
     border: 2px solid var(--primary-text-color);
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 1rem;
   }
 
