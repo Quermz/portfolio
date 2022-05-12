@@ -17,6 +17,7 @@
 <style scoped>
   * {
     white-space: nowrap;
+    overflow-x: hidden;
   }
   .homeContainer {
     /* height: 70vh; */
